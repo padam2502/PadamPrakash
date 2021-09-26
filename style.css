@@ -54,7 +54,7 @@ tr:nth-child(odd) {
   background-color: #53F0B1;
 }
 #footer {
-   position:absolute;
+   position: sticky;
    bottom:0vw;
    text-align: center;
    width:100%;
