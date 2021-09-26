@@ -18,9 +18,9 @@
     border: none;
     outline:none;
     cursor: pointer;
-    padding: 0.65vw;
+    padding: 0.64vw;
     font-family: sans-serif;
-    font-size: 1.171875vw;
+    font-size: 1.172vw;
     background-color: orange;
 }
 .tabContainer .buttonContainer button:hover{
@@ -31,10 +31,10 @@
     background-color: gray;
     color: white;
     text-align: center;
-    padding-top: 3.2552vw;
+    padding-top: 3.25vw;
     box-sizing: border-box;
     font-family: sans-serif;
-    font-size: 1.3020833333333333vw;
+    font-size: 1.31vw;
     display: none;
 }
 table {
