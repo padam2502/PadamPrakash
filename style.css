@@ -55,7 +55,7 @@ tr:nth-child(odd) {
 }
 #footer {
    position:absolute;
-   bottom:0px;
+   bottom:0vw;
    text-align: center;
    width:100%;
   
