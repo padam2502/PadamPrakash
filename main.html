@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--<link rel="icon" type="image/x-icon" href="favicon.png"> -->
+</head>
+<body  onload=display_ct();>
+
+<div id="main" class="tabContainer">
+    <div class="buttonContainer">
+        <button onclick="showPanel(0,'#f44336')">Home</button>
+        <button onclick="showPanel(1,'#4caf50')">About</button>
+        <button onclick="showPanel(2,'##DD29E3')">Education</button>
+        <button onclick="showPanel(3,'#ff5722')">Project</button>
+    </div>
+    <div class="tabPanel">
+	<h>Welcome to my Home Page</h>
+	<p><img src="self.jpeg" alt="My image" ></p>
+	</div>
+    <div class="tabPanel">
+	<p>My Career Objective is to pursue studies in Computer Engineering, leading to a career in research and development.I am always intending to garner more interest and knowledge by getting to work for the welfare of the community.</p>
+	<br></br>
+	<a href="Resume-Padam Prakash.pdf" download="Resume-Padam Prakash">Download the Resume</a>
+	<br></br>
+	<a href="https://www.linkedin.com/in/padam-prakash-138017159/" class="fa fa-linkedin"></a>
+	<br></br>
+	<a href="https://github.com/padam2502" class="fa fa-github"></a>
+	</div>
+    <div class="tabPanel">
+	<table>
+  <tr>
+	<th style="color:Tomato" ><mark>Qualification</mark></th>
+    <th style="color:Tomato" ><mark>College/School</mark></th>
+    <th style="color:Tomato" ><mark>Grade</mark></th>
+	<th style="color:Tomato" ><mark>Year</mark></th>
+    
+  </tr>
+  <tr>
+    <td>MTech in Computer Science</td>
+    <td>International Institute of Information Technology, Hyderabad</td>
+    <td>NA</td>
+	<td>2021-2023</td>
+  </tr>
+  <tr>
+    <td>BTech in Computer Engineering</td>
+    <td>Zakir Husain College of Engineering And Technology, AMU</td>
+    <td>CPI: 9.805/10</td>
+	<td>2017-2021</td>
+  </tr>
+  <tr>
+    <td>Class XII CBSE- AISSCE</td>
+    <td>Kendriya Vidyalaya Unnao</td>
+    <td>Percentage: 93.2</td>
+	<td>2015-2016</td>
+  </tr>
+  <tr>
+    <td>Class X CBSE- AISSE</td>
+    <td>Kendriya Vidyalaya Unnao</td>
+    <td>CGPA: 10/10</td>
+	<td>2013-2014</td>
+  </tr>
+
+</table>
+<br></br>
+<div class="row">
+	<div class="column">
+		<div class="card">
+
+			<img src="kvunnao.jpg"  alt="school image" style="width:50%">
+				<div class="container">
+   
+					<h4><b><a href="https://unnao.kvs.ac.in/">Kendriya Vidyalaya Unnao</a></b></h4>
+					
+				</div >
+		</div>
+	</div>
+	<div class="column">
+		<div class="card">
+			<img src="ZHCET-Aligarh.jpeg"  alt="College image" style="width:50%">
+				<div class="container">
+					<h4><b><a href="https://amu.ac.in/colleges/zakir-husain-college-of-engineering-and-technology">ZHCET Aligarh</a></b></h4>
+					
+				</div >
+		</div>
+	</div>
+	<div class="column">
+		<div class="card">
+			<img src="iiith.jpeg"  alt="College image" style="width:50%">
+				<div class="container">
+					<h4><b><a href="https://www.iiit.ac.in/">IIIT Hyderabad</a></b></h4>
+					
+				</div >
+		</div>
+	</div>
+</div>
+	
+	
+</div>
+    <div class="tabPanel">
+	Project
+	<ul>
+	<li><b>Traffic Signs Recognition : </b>Classifying various Traffic signs images using CNN.</li>
+	<li><b>Classfication of Fast food Images :</b> Classifying fast food images into different categories using CNN and displaying
+	the calories for the same.</li>
+	<li><b>Facial Emotion Recognition :</b> Classifying the emotion on the face images as happy, angry, sad, neutral , surprise,
+	disgust or fear using CNN and generating the emojis of the same using OpenCV.</li>
+	</ul>  
+
+	</div>
+</div>
+<div id="footer"><span id='ct' ></span></div>
+                
+
+<script src="script.js"></script>
+</body>
+</html>
