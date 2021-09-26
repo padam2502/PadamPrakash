@@ -99,7 +99,7 @@ body {
   display: table;
   clear: both;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 39.0625vw) {
   .column {
     width: 100%;
     display: block;
