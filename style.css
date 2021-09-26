@@ -41,8 +41,9 @@ table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
-}
 
+}
+tr:hover {background-color: hotpink;}
 td, th {
   border: 0.06510416666666667vw solid #dddddd;
   text-align: left;
