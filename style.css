@@ -18,9 +18,9 @@
     border: none;
     outline:none;
     cursor: pointer;
-    padding: 0.2vw;
+    padding: 0.1vw;
     font-family: sans-serif;
-    font-size: 1.175vw;
+    font-size: 1.2vw;
     background-color: orange;
 }
 .tabContainer .buttonContainer button:hover{
