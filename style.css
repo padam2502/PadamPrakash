@@ -40,7 +40,7 @@ p{
     text-align: center;
     padding-top: 3.25vw;
     box-sizing: border-box;
-    font-family: sans-serif;
+    /*font-family: sans-serif;*/
     font-size: 16px;
     display: none;
 }
@@ -96,9 +96,9 @@ tr:nth-child(odd) {
 /** {*/
   /*box-sizing: border-box;*/
 /*}*/
-body {
+/*body {
   font-family: Arial, Helvetica, sans-serif;
-}
+}*/
 .row {margin: 0 -0.3255208333333333vw;}
 
 /* Clear floats after the columns */
