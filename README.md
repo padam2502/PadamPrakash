@@ -4,8 +4,12 @@ url: https://padam2502.github.io/
 
 1:- 
 website is a SINGLE page website. It  have multiple tabs linked together under a single navigation bar. (Home, About, Education, Projects )
+
+
 2:
 Using CSS+JavaScript – Toggling content based on the menu item in a single page I.e., when clicked on Home tab, the content related to Home are loading under the content panel, when clicked on Education, the content related to education are loading under the same content pane without refreshing the page.
+
+
 3:-
  profile image and at least 2 more images (school ,college) are put through an external link. Images  have alt text.
  
