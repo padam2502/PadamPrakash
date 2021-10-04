@@ -1,9 +1,9 @@
-h1{
+.h1{
   font-family: Lucida handwriting;
   text-align: center;
 }
-p{
-  font-family: Georgia;
+.p{
+  font-family: Lucida handwriting;
   text-align: left;
 }
 .title{
