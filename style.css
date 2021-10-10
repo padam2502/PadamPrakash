@@ -1,4 +1,14 @@
-
+h1 {
+    font-family: cursive;
+}
+.projects li {
+    font-family: system-ui;
+    font-size: larger;
+}
+p {
+    font-size: x-large;
+    font-family: initial;
+}
 .title{
     font-family: sans-serif;
     color: #dc2d5e;
